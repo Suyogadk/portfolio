@@ -13,9 +13,9 @@ const BlogSection = ({
   const initialBlogPosts = [
     {
       id: 1,
-      title: "Getting Started with React",
+      title: "what is Marxism and why it is considered as the foundation of communism",
       excerpt:
-        "Learn the fundamentals of React and start building modern web applications with hooks, components, and state management.",
+        "Marxism is a political philosophy and method of socioeconomic analysis that uses a dialectical materialist interpretation of historical development, known as historical materialism, to understand class relations and social conflict. It originated in the works of 19th-century German philosophers Karl Marx and Friedrich Engels. Marxism views class struggle as the central driving force of historical change, particularly between the ruling bourgeoisie and the working proletariat. It posits that capitalism, as an economic system, is flawed and will eventually fail as an economic system. Marx theorized that these internal contradictions would fuel a proletarian revolution, leading to the overthrow of capitalism and the establishment of a socialist mode of production. For Marxists, this transition represents a necessary step towards a classless, stateless communist society.",
       date: "Dec 15, 2025",
       readTime: "5 min read",
       likes: 2,
@@ -25,9 +25,9 @@ const BlogSection = ({
     },
     {
       id: 2,
-      title: "The Power of Tailwind CSS",
+      title: "Reality of capitalism",
       excerpt:
-        "Discover how utility-first CSS can speed up your development workflow and create beautiful, responsive designs faster.",
+        "The actual reality of capitalism is that it often leads to inequality, social unrest, and environmental harm. While it is praised for driving innovation and economic growth, it also poses significant challenges to society. ",
       date: "Dec 10, 2025",
       readTime: "7 min read",
       likes: 9,
@@ -37,9 +37,12 @@ const BlogSection = ({
     },
     {
       id: 3,
-      title: "Modern Web Design Trends",
+      title: "Modern Web Design and the ground truth",
       excerpt:
-        "Explore the latest trends shaping the future of web design in 2025, from glassmorphism to micro-interactions.",
+        "The reality of modern web design is that it is not just about aesthetics but also about functionality and user experience. As we move into 2025, the design landscape is evolving with trends that focus on creating digital experiences that feel intuitive, expressive, and built for users. From minimalist and UX-focused designs to advanced interactivity and motion effects, these trends are shaping the future of websites.
+The importance of design in influencing user perception and decision-making is more significant than ever. A well-designed website can drive sales and engagement, and it directly correlates with business success.
+The future of web design will be defined by advanced technologies like AI, AR, and voice interfaces, which will enhance user experiences and redefine the role of websites in modern business.
+By staying up-to-date with these trends, businesses can create websites that not only look good but also serve a purpose, providing a seamless and enjoyable user experience.",
       date: "Dec 5, 2025",
       readTime: "6 min read",
       likes: 3,
@@ -144,3 +147,4 @@ const BlogSection = ({
 };
 
 export default BlogSection;
+

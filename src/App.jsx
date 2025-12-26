@@ -65,7 +65,7 @@ const Portfolio = () => {
 
   return (
     <div
-      className={`min-h-screen ${bgColor} ${textColor} transition-all duration-500 pb-24`}
+      className={`min-h-screen min-w-min ${bgColor} ${textColor} transition-all duration-500 pb-24`}
     >
       <HomeSection
         sectionRef={sectionRefs.home}

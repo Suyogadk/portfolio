@@ -31,7 +31,7 @@ const Footer = ({
             </div>
           </div>
           <div className="hover:scale-105">
-            <h4 className="text-xl font-bold mb-4">Newsletter</h4>
+            <h4 className="text-xl font-bold mb-4">{*Push Notification*} Subscribe</h4>
             <p className={`${textSecondary} mb-4`}>
               Stay updated with my latest posts
             </p>

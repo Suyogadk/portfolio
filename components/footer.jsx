@@ -11,7 +11,7 @@ const Footer = ({
       <div className="max-w-6xl mx-auto">
         <div className="flex md:grid-cols-3 gap-7 mb-8">
           <div className="min-w-0 place-items-center hover:scale-95">
-            <h4 className="text-xl font-bold mb-4 ">John Doe</h4>
+            <h4 className="text-xl font-bold mb-4 ">Suyog Adhikari</h4>
             <p className="text-l font-bold-semibold">
               Building digital experiences that inspire and delight.
             </p>
@@ -51,7 +51,7 @@ const Footer = ({
         </div>
         <div className={`border-t ${borderColor} pt-8 text-center`}>
           <p className={textSecondary}>
-            © 2025 John Doe. Made with
+            © 2025 Suyogadk. Made with
             <strong className="w-4 h-4 inline text-red-500 hover:scale-125 transition-transform cursor-pointer" />{" "}
             <Heart className="w-4 h-4 inline text-red-500 hover:scale-125 transition-transform cursor-pointer" />{" "}
             and lots of{" "}
@@ -63,3 +63,4 @@ const Footer = ({
   );
 };
 export default Footer;
+

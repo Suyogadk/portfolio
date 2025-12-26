@@ -1,4 +1,5 @@
 import { Heart, Brain } from "lucide-react";
+
 const Footer = ({
   cardBg,
   borderColor,
@@ -9,13 +10,16 @@ const Footer = ({
   return (
     <footer className={`${cardBg} border-t ${borderColor} py-12 px-4`}>
       <div className="max-w-6xl mx-auto">
-        <div className="flex md:grid-cols-3 gap-7 mb-8">
-          <div className="min-w-0 place-items-center >
-            <h4 className="text-xl font-bold mb-4 ">Suyog Adhikari</h4>
-            <p className="text-l font-bold-semibold">
+        <div className="flex gap-7 mb-8 md:grid md:grid-cols-3">
+          {/* Branding */}
+          <div className="min-w-0 text-center md:text-left">
+            <h4 className="text-xl font-bold mb-4">Suyog Adhikari</h4>
+            <p className="text-lg font-semibold">
               Building digital experiences that inspire and delight.
             </p>
           </div>
+
+          {/* Quick Links */}
           <div>
             <h4 className="text-xl font-bold mb-4">Quick Links</h4>
             <div className="space-y-2">
@@ -30,8 +34,10 @@ const Footer = ({
               ))}
             </div>
           </div>
+
+          {/* Subscribe */}
           <div>
-            <h4 className="text-xl font-bold mb-4">{*Push Notification*} Subscribe</h4>
+            <h4 className="text-xl font-bold mb-4">Subscribe</h4>
             <p className={`${textSecondary} mb-4`}>
               Stay updated with my latest posts
             </p>
@@ -49,19 +55,19 @@ const Footer = ({
             </div>
           </div>
         </div>
+
+        {/* Footer Bottom */}
         <div className={`border-t ${borderColor} pt-8 text-center`}>
           <p className={textSecondary}>
-            © 2025 Suyogadk. Made with
-            <strong className="w-4 h-4 inline text-red-500 hover:scale-125 transition-transform cursor-pointer" />{" "}
+            © 2025 Suyogadk. Made with{" "}
             <Heart className="w-4 h-4 inline text-red-500 hover:scale-125 transition-transform cursor-pointer" />{" "}
             and lots of{" "}
-            <Brain className="w-4 h-4 inline text-red-500 hover:scale-125 " />
+            <Brain className="w-4 h-4 inline text-blue-500 hover:scale-125 transition-transform cursor-pointer" />
           </p>
         </div>
       </div>
     </footer>
   );
 };
+
 export default Footer;
-
-

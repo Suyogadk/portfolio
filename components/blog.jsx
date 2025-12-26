@@ -39,10 +39,7 @@ const BlogSection = ({
       id: 3,
       title: "Modern Web Design and the ground truth",
       excerpt:
-        "The reality of modern web design is that it is not just about aesthetics but also about functionality and user experience. As we move into 2025, the design landscape is evolving with trends that focus on creating digital experiences that feel intuitive, expressive, and built for users. From minimalist and UX-focused designs to advanced interactivity and motion effects, these trends are shaping the future of websites.
-The importance of design in influencing user perception and decision-making is more significant than ever. A well-designed website can drive sales and engagement, and it directly correlates with business success.
-The future of web design will be defined by advanced technologies like AI, AR, and voice interfaces, which will enhance user experiences and redefine the role of websites in modern business.
-By staying up-to-date with these trends, businesses can create websites that not only look good but also serve a purpose, providing a seamless and enjoyable user experience.",
+        "The importance of design in influencing user perception and decision-making is more significant than ever. A well-designed website can drive sales and engagement, and it directly correlates with business success. The future of web design will be defined by advanced technologies like AI, AR, and voice interfaces, which will enhance user experiences and redefine the role of websites in modern business. By staying up-to-date with these trends, businesses can create websites that not only look good but also serve a purpose, providing a seamless and enjoyable user experience.",
       date: "Dec 5, 2025",
       readTime: "6 min read",
       likes: 3,
@@ -147,4 +144,5 @@ By staying up-to-date with these trends, businesses can create websites that not
 };
 
 export default BlogSection;
+
 

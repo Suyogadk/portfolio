@@ -20,7 +20,7 @@ const BlogSection = ({
       readTime: "5 min read",
       likes: 2,
       comments: 5,
-      emoji: "📱",
+      emoji: "☭",
       color: "bg-blue-500",
     },
     {
@@ -32,7 +32,7 @@ const BlogSection = ({
       readTime: "7 min read",
       likes: 9,
       comments: 2,
-      emoji: "🎨",
+      emoji: "⭐",
       color: "bg-purple-500",
     },
     {
@@ -144,5 +144,6 @@ const BlogSection = ({
 };
 
 export default BlogSection;
+
 
 

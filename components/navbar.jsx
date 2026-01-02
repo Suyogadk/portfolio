@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 const Navbar = ({
   activeSection,
   scrollToSection,
-  isDark,
-  setIsDark,
+  isbright,
+  setisbright,
   textSecondary,
   cardBg,
   borderColor,
@@ -46,13 +46,13 @@ const Navbar = ({
         ))}
 
         <button
-          onClick={() => setIsDark(!isDark)}
+          onClick={() => setisbright(!isbright)}
           className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl ${hoverBg} ${textSecondary}`}
         >
-          {isDark ? (
-            <Sun className="w-6 h-6 text-yellow-500" />
-          ) : (
+          {isbright ? (
             <Moon className="w-6 h-6 text-indigo-500" />
+          ) : (
+            <Sun className="w-6 h-6 text-yellow-500" />
           )}
           <span className="text-xs">Theme</span>
         </button>

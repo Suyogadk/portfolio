@@ -5,7 +5,7 @@ const Footer = ({
   borderColor,
   textSecondary,
   scrollToSection,
-  isDark,
+  isbright,
 }) => {
   return (
     <footer className={`${cardBg} border-t ${borderColor} py-12 px-4`}>
@@ -46,7 +46,7 @@ const Footer = ({
                 type="email"
                 placeholder="Your email"
                 className={`flex-1 px-4 py-2 rounded-lg ${
-                  isDark ? "bg-gray-700" : "bg-gray-100"
+                  isbright ? "bg-gray-700" : "bg-gray-100"
                 } border ${borderColor} focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all hover:border-blue-500`}
               />
               <button className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 hover:scale-105 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl">

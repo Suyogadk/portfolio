@@ -7,7 +7,7 @@ const AboutSection = ({
   borderColor,
   textSecondary,
   hoverBg,
-  isDark,
+  isbright,
 }) => {
   const projects = [
     {
@@ -124,7 +124,7 @@ const AboutSection = ({
                   </div>
                   <div
                     className={`h-3 ${
-                      isDark ? "bg-gray-700" : "bg-gray-200"
+                      isbright ? "bg-gray-700" : "bg-gray-200"
                     } rounded-full overflow-hidden cursor-pointer hover:h-4 transition-all duration-300`}
                   >
                     <div
@@ -168,7 +168,7 @@ const AboutSection = ({
                       <span
                         key={tech}
                         className={`text-xs px-3 py-1 rounded-full ${
-                          isDark
+                          isbright
                             ? "bg-gray-700 hover:bg-gray-600"
                             : "bg-gray-100 hover:bg-gray-200"
                         } transition-colors cursor-pointer`}

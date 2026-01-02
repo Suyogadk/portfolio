@@ -6,7 +6,7 @@ const ContactSection = ({
   borderColor,
   textSecondary,
   hoverBg,
-  isDark,
+  isbright,
 }) => {
   return (
     <section
@@ -30,7 +30,7 @@ const ContactSection = ({
               <div className="space-y-4">
                 <div
                   className={`flex items-center gap-4 p-4 rounded-xl ${
-                    isDark
+                    isbright
                       ? "bg-gray-700 hover:bg-gray-600"
                       : "bg-gray-50 hover:bg-gray-100"
                   } transition-all duration-300 cursor-pointer hover:-translate-x-2`}
@@ -47,7 +47,7 @@ const ContactSection = ({
                 </div>
                 <div
                   className={`flex items-center gap-4 p-4 rounded-xl ${
-                    isDark
+                    isbright
                       ? "bg-gray-700 hover:bg-gray-600"
                       : "bg-gray-50 hover:bg-gray-100"
                   } transition-all duration-300 cursor-pointer hover:-translate-x-2`}
@@ -80,7 +80,7 @@ const ContactSection = ({
                   <button
                     key={social.name}
                     className={`flex flex-col items-center gap-2 p-4 rounded-xl ${
-                      isDark
+                      isbright
                         ? "bg-gray-700 hover:bg-sky-500"
                         : "bg-gray-100 hover:bg-gray-200"
                     } hover:-translate-y-2 transform transition-all duration-300 shadow hover:shadow-xl`}

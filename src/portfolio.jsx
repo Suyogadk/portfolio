@@ -10,7 +10,7 @@ import Footer from "../components/footer.jsx";
 import "./index.css";
 
 const Portfolio = () => {
-  const [isDark, setIsDark] = useState(false);
+  const [isbright, setisbright] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
   const [visibleSections, setVisibleSections] = useState(new Set());
 
@@ -55,22 +55,22 @@ const Portfolio = () => {
   };
 
   // Theme vars
-  const bgColor = isDark
+  const bgColor = !isbright
     ? "bg-gray-900"
     : "bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50";
-  const cardBg = isDark ? "bg-gray-800" : "bg-white";
-  const textColor = isDark ? "text-white" : "text-gray-900";
-  const textSecondary = isDark ? "text-gray-400" : "text-gray-600";
-  const borderColor = isDark ? "border-gray-700" : "border-gray-200";
-  const hoverBg = isDark ? "hover:bg-gray-700" : "hover:bg-gray-50";
+  const cardBg = !isbright ? "bg-gray-800" : "bg-white";
+  const textColor = !isbright ? "text-white" : "text-gray-900";
+  const textSecondary = !isbright ? "text-gray-400" : "text-gray-600";
+  const borderColor = !isbright ? "border-gray-700" : "border-gray-200";
+  const hoverBg = !isbright ? "hover:bg-gray-700" : "hover:bg-gray-50";
 
   return (
     <>
       <Navbar
         activeSection={activeSection}
         scrollToSection={scrollToSection}
-        isDark={isDark}
-        setIsDark={setIsDark}
+        isbright={isbright}
+        setisbright={setisbright}
         textSecondary={textSecondary}
         cardBg={cardBg}
         borderColor={borderColor}
@@ -96,7 +96,7 @@ const Portfolio = () => {
           borderColor={borderColor}
           textSecondary={textSecondary}
           hoverBg={hoverBg}
-          isDark={isDark}
+          isbright={isbright}
         />
 
         <BlogSection
@@ -115,7 +115,7 @@ const Portfolio = () => {
           borderColor={borderColor}
           textSecondary={textSecondary}
           hoverBg={hoverBg}
-          isDark={isDark}
+          isbright={isbright}
         />
 
         <Footer
@@ -123,7 +123,7 @@ const Portfolio = () => {
           borderColor={borderColor}
           textSecondary={textSecondary}
           scrollToSection={scrollToSection}
-          isDark={isDark}
+          isbright={isbright}
         />
       </div>
     </>
